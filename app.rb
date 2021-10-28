@@ -19,6 +19,5 @@ class Battle < Sinatra::Base
     session[:player_2_name] = params[:player_2_name]
     redirect '/play'
   end
-  # run! if app_file == $0
 
 end
